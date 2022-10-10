@@ -15,7 +15,7 @@
 <table>
     <tbody>
         <tr>
-            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/contains-duplicate/">contains duplicate</a></th>
+            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/contains-duplicate/">contains duplicate -d</a></th>
             <th align="center" width="50px">02</th><th align="left" width="550px"><a href="https://leetcode.com/problems/missing-number/">missing number</a></th>
         </tr>
         <tr>
