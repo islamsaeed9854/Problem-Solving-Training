@@ -15,7 +15,7 @@
 <table>
     <tbody>
         <tr>
-            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/contains-duplicate/">contains duplicate</a></th>
+            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/contains-duplicate/">done contains duplicate</a></th>
             <th align="center" width="50px">02</th><th align="left" width="550px"><a href="https://leetcode.com/problems/missing-number/">missing number</a></th>
         </tr>
         <tr>
@@ -59,7 +59,7 @@
             <th align="center" width="50px">22</th><th align="left" width="550px"><a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">minimum depth of binary tree</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">23</th><th align="left" width="550px"><a href="https://leetcode.com/problems/same-tree/">same tree</a></th>
+            <th align="center" width="50px">23</th><th align="left" width="550px"><a href="https://leetcode.com/problems/same-tree/">done same tree</a></th>
             <th align="center" width="50px">24</th><th align="left" width="550px"><a href="https://leetcode.com/problems/path-sum/">path sum</a></th>
         </tr>
         <tr>
@@ -67,12 +67,12 @@
             <th align="center" width="50px">26</th><th align="left" width="550px"><a href="https://leetcode.com/problems/diameter-of-binary-tree/">diameter of binary tree</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">27</th><th align="left" width="550px"><a href="https://leetcode.com/problems/merge-two-binary-trees/">merge two binary trees</a></th>
+            <th align="center" width="50px">27</th><th align="left" width="550px"><a href="https://leetcode.com/problems/merge-two-binary-trees/">done merge two binary trees</a></th>
             <th align="center" width="50px">28</th><th align="left" width="550px"><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">lowest common ancestor of a binary search tree</a></th>
         </tr>
         <tr>
             <th align="center" width="50px">29</th><th align="left" width="550px"><a href="https://leetcode.com/problems/subtree-of-another-tree/">subtree of another tree</a></th>
-            <th align="center" width="50px">30</th><th align="left" width="550px"><a href="https://leetcode.com/problems/invert-binary-tree/">invert binary tree</a></th>
+            <th align="center" width="50px">30</th><th align="left" width="550px"><a href="https://leetcode.com/problems/invert-binary-tree/">done invert binary tree </a></th>
         </tr>
         <tr>
             <th align="center" width="50px">31</th><th align="left" width="550px"><a href="https://leetcode.com/problems/two-sum/">two sum</a></th>
@@ -83,8 +83,8 @@
             <th align="center" width="50px">34</th><th align="left" width="550px"><a href="https://leetcode.com/problems/index-pairs-of-a-string/">index pairs of a string</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">35</th><th align="left" width="550px"><a href="https://leetcode.com/problems/majority-element/">majority element</a></th>
-            <th align="center" width="50px">36</th><th align="left" width="550px"><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">convert 1d array into 2d array D</a></th>
+            <th align="center" width="50px">35</th><th align="left" width="550px"><a href="https://leetcode.com/problems/majority-element/">done majority element</a></th>
+            <th align="center" width="50px">36</th><th align="left" width="550px"><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">done convert 1d array into 2d array D</a></th>
         </tr>
     </tbody>
 </table>
@@ -95,11 +95,11 @@
     <tbody>
         <tr>
             <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/product-of-array-except-self/">Done product of array except self </a></th>
-            <th align="center" width="50px">02</th><th align="left" width="550px"><a href="https://leetcode.com/problems/find-the-duplicate-number/">find the duplicate number</a></th>
+            <th align="center" width="50px">02</th><th align="left" width="550px"><a href="https://leetcode.com/problems/find-the-duplicate-number/">done find the duplicate number</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">03</th><th align="left" width="550px"><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/">find all duplicates in an array</a></th>
-            <th align="center" width="50px">04</th><th align="left" width="550px"><a href="https://leetcode.com/problems/set-matrix-zeroes/">set matrix zeroes</a></th>
+            <th align="center" width="50px">03</th><th align="left" width="550px"><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/">done find all duplicates in an array</a></th>
+            <th align="center" width="50px">04</th><th align="left" width="550px"><a href="https://leetcode.com/problems/set-matrix-zeroes/">done set matrix zeroes</a></th>
         </tr>
         <tr>
             <th align="center" width="50px">05</th><th align="left" width="550px"><a href="https://leetcode.com/problems/spiral-matrix/">spiral matrix</a></th>

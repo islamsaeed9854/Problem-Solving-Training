@@ -3,32 +3,39 @@ using namespace std;
 class Solution
 {
 public:
-    vector<int> productExceptSelf(vector<int> &nums)
+    void setZeroes(vector<vector<int>> &matrix)
     {
-        int prod = 1, ze = 0;
-        for (auto i : nums)
+        for (int i = 0; i < matrix.size(); i++)
         {
-            if (i)
-                prod *= i;
-            else
-                ze++;
+            for (int j = 0; j < matrix[i].size(); j++)
+            {
+                if (matrix[i][j] == 0)
+                {
+                    for (int k = 0; k < matrix.size(); k++)
+                    {
+                        matrix[k][j] = matrix[k][j] != 0 ? 'a' : 0;
+                    }
+                    for (int k = 0; k < matrix[i].size(); k++)
+                    {
+                        matrix[i][k] = matrix[i][k] != 0 ? 'a' : 0;
+                    }
+                }
+            }
         }
-        vector<int> ans;
-        for (auto i : nums)
+        
+        for (int i = 0; i < matrix.size(); i++)
         {
-            if (ze >= 2)
-                ans.push_back(0);
-            else if (i && ze == 1)
-                ans.push_back(0);
-            else if (!i && ze == 1)
-                ans.push_back(prod);
-            else
-                ans.push_back(prod / i);
+            for (int j = 0; j < matrix[i].size(); j++)
+            {
+                if (matrix[i][j] == 'a')
+                {
+                   matrix[i][j]=0;
+                }
+            }
         }
-
-        return ans;
     }
 };
-int main()
-{
+int main(){
+    cout << INT_MIN << endl;
+    cout <<   (int)pow(-2,31) << endl;
 }
