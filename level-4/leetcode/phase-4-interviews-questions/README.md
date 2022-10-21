@@ -94,7 +94,7 @@
 <table>
     <tbody>
         <tr>
-            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/product-of-array-except-self/">product of array except self Done</a></th>
+            <th align="center" width="50px">01</th><th align="left" width="550px"><a href="https://leetcode.com/problems/product-of-array-except-self/">Done product of array except self </a></th>
             <th align="center" width="50px">02</th><th align="left" width="550px"><a href="https://leetcode.com/problems/find-the-duplicate-number/">find the duplicate number</a></th>
         </tr>
         <tr>
