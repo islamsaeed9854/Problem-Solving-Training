@@ -1,35 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class Solution
+{
 public:
-    int conv(int n, int x,int y){
-        return x*n+y;
-    }
-    vector<vector<int>> construct2DArray(vector<int>& original, int m, int n) {
-        vector<vector<int>>v;
-        int sz = original.size();
-        if(n*m!= sz)
-        return v;
-        
-        vector<vector<int>> arr(m, vector<int>(n));
-        for(int i = 0; i < m ; i++){
-            for(int j= 0 ;j < n;j++){
-              arr[i][j] = original[conv(n,i,j)];
-            }
+    vector<int> productExceptSelf(vector<int> &nums)
+    {
+        int prod = 1, ze = 0;
+        for (auto i : nums)
+        {
+            if (i)
+                prod *= i;
+            else
+                ze++;
         }
-        for(int i = 0; i < m ; i++){
-            for(int j= 0 ;j < n;j++){
-             cout << arr[i][j] <<" ";
-            }
-            cout << endl;
+        vector<int> ans;
+        for (auto i : nums)
+        {
+            if (ze >= 2)
+                ans.push_back(0);
+            else if (i && ze == 1)
+                ans.push_back(0);
+            else if (!i && ze == 1)
+                ans.push_back(prod);
+            else
+                ans.push_back(prod / i);
         }
-        return arr;
+
+        return ans;
     }
 };
 int main()
 {
-   Solution s;
-   vector<int> v = {1,2,3,4};
-   s.construct2DArray(v,1,4) ;
-     
 }
