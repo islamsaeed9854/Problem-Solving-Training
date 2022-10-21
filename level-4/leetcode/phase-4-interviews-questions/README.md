@@ -84,7 +84,7 @@
         </tr>
         <tr>
             <th align="center" width="50px">35</th><th align="left" width="550px"><a href="https://leetcode.com/problems/majority-element/">majority element</a></th>
-            <th align="center" width="50px">36</th><th align="left" width="550px"><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">convert 1d array into 2d array</a></th>
+            <th align="center" width="50px">36</th><th align="left" width="550px"><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array/">convert 1d array into 2d array D</a></th>
         </tr>
     </tbody>
 </table>
