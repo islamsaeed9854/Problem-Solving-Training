@@ -3,39 +3,49 @@ using namespace std;
 class Solution
 {
 public:
-    void setZeroes(vector<vector<int>> &matrix)
+    vector<vector<int>> all;
+    map<vector<int>, bool> tk;
+    void rec(int idx, int cur_sum, vector<int> cur_v, vector<int> &candidates, int target)
     {
-        for (int i = 0; i < matrix.size(); i++)
+
+        if (cur_sum == target)
         {
-            for (int j = 0; j < matrix[i].size(); j++)
-            {
-                if (matrix[i][j] == 0)
-                {
-                    for (int k = 0; k < matrix.size(); k++)
-                    {
-                        matrix[k][j] = matrix[k][j] != 0 ? 'a' : 0;
-                    }
-                    for (int k = 0; k < matrix[i].size(); k++)
-                    {
-                        matrix[i][k] = matrix[i][k] != 0 ? 'a' : 0;
-                    }
-                }
-            }
+            vector<int> cc = cur_v;
+            sort(cc.begin(), cc.end());
+            if (tk[cc] == 1)
+                return;
+            tk[cc] = 1;
+            all.push_back(cc);
+            return;
         }
-        
-        for (int i = 0; i < matrix.size(); i++)
+        if (idx >= candidates.size())
+            return;
+        if (cur_sum + candidates[idx] <= target)
         {
-            for (int j = 0; j < matrix[i].size(); j++)
-            {
-                if (matrix[i][j] == 'a')
-                {
-                   matrix[i][j]=0;
-                }
-            }
+            cur_sum += candidates[idx];
+            cur_v.push_back(candidates[idx]);
+            rec(idx + 1, cur_sum, cur_v, candidates, target);
+            cur_sum -= candidates[idx];
+            cur_v.pop_back();
         }
+        rec(idx + 1, cur_sum, cur_v, candidates, target);
+    }
+    vector<vector<int>> combinationSum2(vector<int> &candidates, int target)
+    {
+        vector<int> v;
+        rec(0, 0, v, candidates, target);
+        for (auto i : all)
+        {
+            for (auto j : i)
+                cout << j << " ";
+            cout << endl;
+        }
+        return all;
     }
 };
-int main(){
-    cout << INT_MIN << endl;
-    cout <<   (int)pow(-2,31) << endl;
+int main()
+{
+    vector<int> vec = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+    Solution S;
+    S.combinationSum2(vec, 27);
 }

@@ -43,7 +43,7 @@
             <th align="center" width="50px">14</th><th align="left" width="550px"><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/">remove duplicates from sorted list</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">15</th><th align="left" width="550px"><a href="https://leetcode.com/problems/reverse-linked-list/">reverse linked list</a></th>
+            <th align="center" width="50px">15</th><th align="left" width="550px"><a href="https://leetcode.com/problems/reverse-linked-list/">Done reverse linked list</a></th>
             <th align="center" width="50px">16</th><th align="left" width="550px"><a href="https://leetcode.com/problems/merge-two-sorted-lists/">merge two sorted lists</a></th>
         </tr>
         <tr>
@@ -115,14 +115,14 @@
         </tr>
         <tr>
             <th align="center" width="50px">11</th><th align="left" width="550px"><a href="https://leetcode.com/problems/subsets-ii/">subsets ii</a></th>
-            <th align="center" width="50px">12</th><th align="left" width="550px"><a href="https://leetcode.com/problems/permutations/">permutations</a></th>
+            <th align="center" width="50px">12</th><th align="left" width="550px"><a href="https://leetcode.com/problems/permutations/">done permutations</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">13</th><th align="left" width="550px"><a href="https://leetcode.com/problems/permutations-ii/">permutations ii</a></th>
-            <th align="center" width="50px">14</th><th align="left" width="550px"><a href="https://leetcode.com/problems/combinations/">combinations</a></th>
+            <th align="center" width="50px">13</th><th align="left" width="550px"><a href="https://leetcode.com/problems/permutations-ii/">done permutations ii</a></th>
+            <th align="center" width="50px">14</th><th align="left" width="550px"><a href="https://leetcode.com/problems/combinations/">done combinations</a></th>
         </tr>
         <tr>
-            <th align="center" width="50px">15</th><th align="left" width="550px"><a href="https://leetcode.com/problems/combination-sum/">combination sum</a></th>
+            <th align="center" width="50px">15</th><th align="left" width="550px"><a href="https://leetcode.com/problems/combination-sum/">done combination sum</a></th>
             <th align="center" width="50px">16</th><th align="left" width="550px"><a href="https://leetcode.com/problems/combination-sum-ii/">combination sum ii</a></th>
         </tr>
         <tr>
